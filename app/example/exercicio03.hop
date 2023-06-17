@@ -1,0 +1,2 @@
+dec qsoma : num # num -> num;
+--- qsoma(a, b) <= pow( (a+b), 2 );
