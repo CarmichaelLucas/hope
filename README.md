@@ -16,3 +16,17 @@ I follow this playlist: https://www.youtube.com/playlist?list=PL838IdaPZmcujeki2
  - `make build && make run`
 
 to remove the created image, run: `make rm`
+
+## Using CLI:
+
+_example:_
+
+```shell
+I have no name!@2af83e80e1f5:/app$ hope
+>: dec soma : num # num -> num;
+>: --- soma (x, y) <= x + y;      
+>: soma(3,4)
+>: ;
+>> 7 : num
+>: 
+```
