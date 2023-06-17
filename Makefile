@@ -1,11 +1,10 @@
 IMAGE_NAME=hope
-USER=1000
 
 build:
 	@docker buildx build --tag ${IMAGE_NAME} .
 
 run:
-	@docker container run -it --name ${IMAGE_NAME} --rm -v $(pwd)/app:/app --user ${USER}:${USER} ${IMAGE_NAME} bash
+	@docker container run -it --rm -v ./app/:/app -w /app --user 1000:1000 ${IMAGE_NAME} bash
 
 rm:
 	@docker image rm hope
