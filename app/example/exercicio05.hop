@@ -1,0 +1,2 @@
+dec produto : num # num -> num;
+--- produto(x, y) <= x * y;
