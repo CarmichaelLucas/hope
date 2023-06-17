@@ -1,0 +1,2 @@
+dec suc : num -> num;
+--- suc(x) <= x + 1;
