@@ -1,0 +1,5 @@
+dec quadrado : num -> num;
+--- quadrado(a) <= pow(a, 2);
+
+dec squad : num # num -> num;
+--- squad(a, b) <= quadrado(a) + quadrado(b);
