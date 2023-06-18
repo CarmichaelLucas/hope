@@ -1,0 +1,3 @@
+dec sinal : num # num -> num;
+--- sinal(x, y) <= if x = y then 0 else 
+                   if x < y then (0-1) else error ("Condição Invalida.");
