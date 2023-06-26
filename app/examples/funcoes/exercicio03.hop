@@ -1,0 +1,1 @@
+(lambda a => (lambda b => (pow( (a + b), 2)))) valorA valorB;
