@@ -1,0 +1,1 @@
+(lambda (peso, altura) => (peso / pow(altura, 2))) (valorP, valorA);
